@@ -78,13 +78,13 @@ On Windows PowerShell:
 1. Create a MySQL database, for example:
 
 ```sql
-CREATE DATABASE blog_api;
+CREATE DATABASE blogdb;
 ```
 
 2. Open `src/main/resources/application.properties` and configure your DB credentials:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/blog_api
+spring.datasource.url=jdbc:mysql://localhost:3306/blogdb
 spring.datasource.username=your_mysql_username
 spring.datasource.password=your_mysql_password
 spring.jpa.hibernate.ddl-auto=update
